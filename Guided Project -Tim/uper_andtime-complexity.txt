@@ -1,0 +1,54 @@
+
+- Algorithms
+
+- Understand
+-- Understand inputs/outputs
+-- What's part of the problem, what's not
+-- when are we done? When you are able to teach it to someone else a few different ways 
+
+- Plan
+-- # pseudocode
+-- Plan a simple approach first.
+-- ensure edge cases, none, some, one, a lot
+-- Do it out loud!
+-- When are we done?
+--- pseudocode is complete
+--- confident plan solves the problem
+
+Elsy's aphorism
+Run -> right if someone trust has pre-written the tests for you.
+Right -> run if you have to write your own tests
+
+- Execute
+-- "googling stack overflow"
+-- Try to stick to your plan
+-- You can loop back to U or P if you realize something new
+-- Focus on the basics
+-- Having a test created
+-- Document as you go, commit as you go
+-- Tests pass, behavior is expected
+
+- Reflect
+-- Comment your code
+-- Documentation, write a readme
+-- Runtime
+
+- Make a checklist
+-- what took the longest, or was hardest?
+-- What problem-solving technique or tool could have helped me solve this faster?
+-- Make the checklist easy to use
+-- Checklist to read or to fill out
+
+
+
+
+
+ Time Complexity Review
+ - What does Big O stand for?
+ - What are the different orders? O(1), n, n log n, n^2, n^3, 2^n (exponential)
+ - What are examples of the real world where time complexity of an operation would affect you?
+-- Searching for a post on a social media site
+-- Stock market model, find best time to buy/sell, O(n^2), where n is an array of prices
+-- It works with a small dataset, doesn't work or works slowly in production
+
+- Time complexity of understanding vs discovery
