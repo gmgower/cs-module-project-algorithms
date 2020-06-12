@@ -4,8 +4,19 @@ Returns: an integer
 '''
 def single_number(arr):
     # Your code here
-
-    pass
+    # Create an arry, call it no_dups to hold numbers 
+    # iterate through nums
+        ## check to see if the number is already present
+        ## remove duplicates numbers
+    # return odd numbers out
+    
+    no_duplicates = []
+    for x in arr:
+        if x not in no_duplicates:
+            no_duplicates.append(x)
+        else:
+            no_duplicates.remove(x)
+    return no_duplicates[0]
 
 
 if __name__ == '__main__':
